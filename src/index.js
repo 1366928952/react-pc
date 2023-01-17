@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HashRouter as Router } from 'react-router-dom' // BrowserRouter
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <App />
+  // Router直接把整个App包裹起来
+    <Router>   
+      <App />
+    </Router>
   // </React.StrictMode>
 );
 
