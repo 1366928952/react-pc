@@ -2,7 +2,13 @@
 启动/打包：`npm run start/build`
 
 # Store
-mobx：[https://cn.mobx.js.org/]
+mobx：`npm install mobx,mobx-react --save`
+参考链接：[https://cn.mobx.js.org/]
+         [https://blog.csdn.net/xiapi3/article/details/106901684/]
+         封装:[http://t.csdn.cn/uJWml]
+
+# 项目配置
+路径简称@： [https://blog.csdn.net/qq_41619796/article/details/108598084]   
 
 
 
