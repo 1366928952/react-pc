@@ -1,3 +1,11 @@
+# 启动
+启动/打包：`npm run start/build`
+
+# Store
+mobx：[https://cn.mobx.js.org/]
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
