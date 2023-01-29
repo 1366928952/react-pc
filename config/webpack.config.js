@@ -319,6 +319,7 @@ module.exports = function (webpackEnv) {
           'scheduler/tracing': 'scheduler/tracing-profiling',
         }),
         ...(modules.webpackAliases || {}),
+        "@": path.resolve('src'), // 111 配置简称
       },
       plugins: [
         // Prevents users from importing files from outside of src/ (or node_modules/).
